@@ -1,0 +1,32 @@
+# --- ESP-IDF Build Artifacts ---
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.srec
+*.uf2
+
+# --- ESP-IDF Config Files ---
+sdkconfig
+sdkconfig.old
+
+# --- Logs / Temp Files ---
+*.log
+*.tmp
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code / Editor Files ---
+.vscode/
+.idea/
+
+# --- Python Virtual Environments ---
+.venv/
+env/
+venv/
+
+# --- Backup files ---
+*~
