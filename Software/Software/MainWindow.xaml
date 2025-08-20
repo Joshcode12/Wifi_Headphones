@@ -4,10 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Software"
+        xmlns:views="clr-namespace:Software.Views"
         mc:Ignorable="d"
-        Title="Test" Height="450" Width="800">
-    <Grid>
-        <Label x:Name="label" Content="Hello world!!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+        Title="WifiHeadphones"
+        Height="550"
+        Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="/Images/SoundWave.jpg" />
+    </Window.Background>
 
-    </Grid>
 </Window>
